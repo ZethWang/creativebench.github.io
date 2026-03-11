@@ -399,10 +399,10 @@ function CreativeBenchHomepage() {
       <section className="section">
         <div className="container is-max-widescreen">
           <div className="columns is-centered">
-            <div className="column is-10-desktop is-full">
-              <div className="box method-card">
-                <h2 className="title is-3">EvoRePE</h2>
-                <div className="content has-text-justified">
+            <div className="column is-11-desktop is-full">
+              <h2 className="title is-3 has-text-centered section-title">EvoRePE</h2>
+              <div className="box findings-card evorepe-card">
+                <div className="content has-text-justified evorepe-copy">
                   <p>
                     Beyond benchmarking, we propose EvoRePE (Evolutionary Representation Engineering), a plug-and-play
                     inference-time steering method that extracts a creativity vector from evolutionary trajectories.
