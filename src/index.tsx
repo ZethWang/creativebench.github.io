@@ -32,7 +32,7 @@ type Contact = {
 
 const authorRows: Author[][] = [
   [
-    { name: "Zi-Han Wang", superscript: "2,6,*" },
+    { name: "Zi-Han Wang", superscript: "1,2,6,*" },
     { name: "Lam Nguyen", superscript: "2,*" },
     { name: "Zhengyang Zhao", superscript: "3" },
   ],
