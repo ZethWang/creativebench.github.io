@@ -195,7 +195,7 @@ function CreativeBenchHomepage() {
     <>
       <section className="hero page-shell">
         <div className="hero-body">
-          <div className="container is-max-desktop">
+          <div className="container is-max-desktop homepage-container">
             <div className="hero-panel">
               <div className="columns is-centered">
                 <div className="column has-text-centered">
@@ -311,7 +311,7 @@ function CreativeBenchHomepage() {
       </section>
 
       <section className="section">
-        <div className="container is-max-widescreen">
+        <div className="container is-max-widescreen homepage-container">
           <div className="columns is-centered">
             <div className="column is-11-desktop is-full">
               <h2 className="title is-3 has-text-centered section-title">Creativity Modes</h2>
@@ -333,7 +333,7 @@ function CreativeBenchHomepage() {
       </section>
 
       <section className="section section-muted">
-        <div className="container is-max-widescreen">
+        <div className="container is-max-widescreen homepage-container">
           {benchmarkFigures.map((figure) => (
             <div className="columns is-centered" key={figure.title}>
               <div className="column is-11-desktop is-full">
@@ -356,7 +356,7 @@ function CreativeBenchHomepage() {
       </section>
 
       <section className="section">
-        <div className="container is-max-widescreen">
+        <div className="container is-max-widescreen homepage-container">
           <div className="columns is-centered">
             <div className="column is-11-desktop is-full">
               <h2 className="title is-3 has-text-centered section-title">Results</h2>
@@ -372,7 +372,7 @@ function CreativeBenchHomepage() {
       </section>
 
       <section className="section section-muted">
-        <div className="container is-max-widescreen">
+        <div className="container is-max-widescreen homepage-container">
           <div className="columns is-centered">
             <div className="column is-11-desktop is-full">
               <h2 className="title is-3 has-text-centered section-title">Analysis</h2>
@@ -397,7 +397,7 @@ function CreativeBenchHomepage() {
       </section>
 
       <section className="section">
-        <div className="container is-max-widescreen">
+        <div className="container is-max-widescreen homepage-container">
           <div className="columns is-centered">
             <div className="column is-11-desktop is-full">
               <h2 className="title is-3 has-text-centered section-title">EvoRePE</h2>
