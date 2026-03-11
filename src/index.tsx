@@ -207,7 +207,10 @@ function CreativeBenchHomepage() {
                     />
                   </div>
                   <h1 className="title is-1 publication-title">
-                    CreativeBench: Benchmarking and Enhancing Machine Creativity via Self-Evolving Challenges
+                    <span className="publication-brand">CreativeBench</span>
+                    <span className="publication-subtitle">
+                      Benchmarking and Enhancing Machine Creativity via Self-Evolving Challenges
+                    </span>
                   </h1>
 
                   {authorRows.map((row, rowIndex) => (
