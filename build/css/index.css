@@ -121,7 +121,7 @@ a {
 .publication-brand {
   display: block;
   font-family: "Google Sans", "Noto Sans", sans-serif;
-  font-size: clamp(2.45rem, 4.2vw, 3.75rem);
+  font-size: clamp(2.2rem, 3.7vw, 3.3rem);
   font-weight: 700;
   line-height: 0.94;
   letter-spacing: -0.06em;
@@ -639,7 +639,7 @@ a {
   }
 
   .publication-brand {
-    font-size: clamp(2.05rem, 8.8vw, 2.7rem);
+    font-size: clamp(1.9rem, 8vw, 2.45rem);
   }
 
   .publication-subtitle {
