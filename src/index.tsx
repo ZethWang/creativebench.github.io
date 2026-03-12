@@ -49,7 +49,7 @@ const affiliations = [
   ["2", "Tsinghua University"],
   ["3", "Peking University"],
   ["4", "University of Bristol"],
-  ["5", "HKUST (Guangzhou)"],
+  ["5", "The Hong Kong University of Science and Technology (Guangzhou)"],
   ["6", "Xi'an Jiaotong University"],
 ];
 
