@@ -85,17 +85,27 @@ const contactEmails: Contact[] = [
 const heroImage = "/images/creativebench/image.png";
 
 const heroLinks: ResourceLink[] = [
-  { href: "https://arxiv.org/", icon: "fas fa-file-pdf", label: "Paper" },
+  { href: "https://arxiv.org/abs/2603.11863", icon: "fas fa-file-pdf", label: "Paper" },
   { href: "https://github.com/ZethWang/CreativeBench", icon: "fab fa-github", label: "Code" },
-  { href: "https://huggingface.co/datasets", icon: "fas fa-database", label: "Dataset" },
+  { href: "https://huggingface.co/datasets/Zethive/CreativeBench", icon: "fas fa-database", label: "Dataset" },
 ];
 
 const footerLinks: ResourceLink[] = [
-  { href: "https://arxiv.org/", label: "Paper" },
+  { href: "https://arxiv.org/abs/2603.11863", label: "Paper" },
   { href: "https://github.com/ZethWang/CreativeBench", label: "Code" },
-  { href: "https://huggingface.co/datasets", label: "Dataset" },
+  { href: "https://huggingface.co/datasets/Zethive/CreativeBench", label: "Dataset" },
   { href: "https://github.com/ZethWang/CreativeBench/blob/main/LICENSE", label: "MIT License" },
 ];
+
+const citationText = `@misc{wang2026creativebenchbenchmarkingenhancingmachine,
+  title={CreativeBench: Benchmarking and Enhancing Machine Creativity via Self-Evolving Challenges},
+  author={Zi-Han Wang and Lam Nguyen and Zhengyang Zhao and Mengyue Yang and Chengwei Qin and Yujiu Yang and Linyi Yang},
+  year={2026},
+  eprint={2603.11863},
+  archivePrefix={arXiv},
+  primaryClass={cs.AI},
+  url={https://arxiv.org/abs/2603.11863},
+}`;
 
 const creativityModeFigure: FigureCard = {
   title: "Two Modes of Creativity",
@@ -460,6 +470,13 @@ function CreativeBenchHomepage() {
                       {link.label}
                     </a>
                   ))}
+                </div>
+
+                <div className="footer-citation">
+                  <h3 className="title is-5 footer-section-title">Citation</h3>
+                  <pre className="citation-block">
+                    <code>{citationText}</code>
+                  </pre>
                 </div>
 
                 <p className="footer-meta">This website template is based on the LiveCodeBench project page.</p>
